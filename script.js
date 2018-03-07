@@ -1,5 +1,3 @@
-ReactDOM.render(<App />, document.getElementById('root'));
-
 class App extends React.Component {
     constructor() {
         super();
@@ -26,7 +24,7 @@ class App extends React.Component {
         return (
             <div>
                 <form onSubmit = {event => this.onSubmit(event)}>
-                    <label htmlFor="searchText">Search by user name</label>
+                    <label htmlFor="searchText">Search by user name:</label>
                     <input 
                         type="text"
                         id="searchText"
